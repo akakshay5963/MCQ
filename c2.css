@@ -1,0 +1,64 @@
+/* c2.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    line-height: 1.2;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 30px;
+    background-color: #3159e9;
+    padding: 10px;
+}
+
+p {
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #cfc6c6; /* This sets the background color of the page */
+    line-height: 1.6;
+    color: #171212; /* Default text color */
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #6b3201;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.submission-details {
+    margin-top: 30px;
+}
+
+.submission-details label {
+    font-weight: bold;
+}
+
+input[type="button"] {
+    margin-right: 20px;
+}
